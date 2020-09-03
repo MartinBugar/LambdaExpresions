@@ -3,6 +3,8 @@ package com.prometheus;
 public class LambdaExample4 {
     public static void main(String[] args) {
         Nasob nasobpiatimi = a -> a *5;
+        Nasob nasobpiatimi2 = (int a) -> a *5;
+
         printNasob(nasobpiatimi);
         printNasob(a -> a *5);
     }
