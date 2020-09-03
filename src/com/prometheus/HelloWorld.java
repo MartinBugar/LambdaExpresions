@@ -14,6 +14,7 @@ public class HelloWorld {
         helloWorld.printHelloWorld();
 
         helloWorld.printHelloWorld2(helloWorld.new HelloWorldC());
+        helloWorld.printHelloWorld2(() -> System.out.println("Hello world impls"));
 
     }
 
