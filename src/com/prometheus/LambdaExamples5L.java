@@ -22,7 +22,7 @@ public class LambdaExamples5L {
 
         System.out.println("--------------------------------");
         //    3. napis metodu, ktora vypise vsetko zo zoznamu miest
-        printMesta(mesta);
+        printWithFilter(mesta, s -> true);
 
 
         System.out.println("--------------------------------");
